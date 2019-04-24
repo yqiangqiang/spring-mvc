@@ -12,5 +12,18 @@
 </head>
 <body>
     <h1>test.hello</h1>
+    <form action="uploadTest.action" method="post"  enctype="multipart/form-data" >
+
+        <input type="text" name="userName"/>
+        <input type="text" name="password" />
+        <input type="file" name="files" />
+        <input type="file" name="files" />
+        <input type="submit" value="提交">
+    </form>
 </body>
+
+<script>
+
+</script>
+
 </html>
